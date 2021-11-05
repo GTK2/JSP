@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="JSP06_Expression2" path="/JSP06_Expression2" reloadable="true" source="org.eclipse.jst.jee.server:JSP06_Expression2"/><Context docBase="JSP07_IF" path="/JSP07_IF" reloadable="true" source="org.eclipse.jst.jee.server:JSP07_IF"/><Context docBase="JSP08_For" path="/JSP08_For" reloadable="true" source="org.eclipse.jst.jee.server:JSP08_For"/><Context docBase="JSP09_derective" path="/JSP09_derective" reloadable="true" source="org.eclipse.jst.jee.server:JSP09_derective"/><Context docBase="JSP10_ErrorPage" path="/JSP10_ErrorPage" reloadable="true" source="org.eclipse.jst.jee.server:JSP10_ErrorPage"/></Host>
+      <Context docBase="JSP06_Expression2" path="/JSP06_Expression2" reloadable="true" source="org.eclipse.jst.jee.server:JSP06_Expression2"/><Context docBase="JSP07_IF" path="/JSP07_IF" reloadable="true" source="org.eclipse.jst.jee.server:JSP07_IF"/><Context docBase="JSP08_For" path="/JSP08_For" reloadable="true" source="org.eclipse.jst.jee.server:JSP08_For"/><Context docBase="JSP09_derective" path="/JSP09_derective" reloadable="true" source="org.eclipse.jst.jee.server:JSP09_derective"/><Context docBase="JSP10_ErrorPage" path="/JSP10_ErrorPage" reloadable="true" source="org.eclipse.jst.jee.server:JSP10_ErrorPage"/><Context docBase="JSP11_include" path="/JSP11_include" reloadable="true" source="org.eclipse.jst.jee.server:JSP11_include"/></Host>
     </Engine>
   </Service>
 </Server>
